@@ -68,6 +68,7 @@ pprint(fruits_new)
 # print(table)
 
 # 9
+from time import time
 def get_divisors(n):
     divisors = []
     for div in range(2, n // 2 +1):
@@ -76,5 +77,8 @@ def get_divisors(n):
     return divisors
 
 N, M = int(input()), int(input())
+start = time()
 nums_and_divs = {num:get_divisors(num) for num in range(N, M + 1) if len(get_divisors(num)) > 0}
-print(nums_and_divs)
+stop = time()
+print(f'Программа работала {stop - start} секунд')
+# print(nums_and_divs)
