@@ -34,5 +34,5 @@ print(my_car._Car__model)
 
 print(my_car.get_model())
 
-my_car.set_speed(0)
+my_car.set_speed(-100)
 print(my_car.get_speed())
