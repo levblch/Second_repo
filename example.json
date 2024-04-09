@@ -1,0 +1,12 @@
+{
+    "name": "Andrew",
+    "age": 26,
+    "isFullTime": true,
+    "address":
+    {
+        "city": "Санкт-Петербург",
+        "street": "Невский проспект",
+        "house": 28
+    },
+    "progLanguages": ["Python", "C#", "C++"]
+}
