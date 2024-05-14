@@ -81,7 +81,7 @@ def warning(func):
     return wraper
 
 
-@warning
+
 @up
 def send_message(gift):
     return f'Мне на день рождения подарили {gift}'
